@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Button from "primevue/button";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -25,7 +26,7 @@ import Button from "primevue/button";
       </p>
     </div>
     <p class="flex gap-2 text-center mt-4">
-      <a href="mailto:wren@discuss.love">wren@discuss.love</a>
+      <RouterLink to="/contact">Contact</RouterLink>
       <span>•</span>
       <a href="https://github.com/lostatc/discuss.love" target="_blank">GitHub</a>
     </p>
